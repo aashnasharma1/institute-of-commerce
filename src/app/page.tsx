@@ -228,10 +228,10 @@ export default async function Home() {
       <About />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto pl-2">
-          <h1 className="mb-4 text-4xl font-extrabold text-blue-700 dark:text-green-300">
+          <h1 className="mb-4 text-4xl font-extrabold text-blue-700 dark:text-zinc-300">
             Student Reviews & Testimonials
           </h1>
-          <h2 className="mb-8 text-2xl font-semibold text-blue-600 dark:text-green-200">
+          <h2 className="mb-8 text-2xl font-semibold text-blue-600 dark:text-zinc-200">
             What Our Students Say
           </h2>
         </div>
@@ -240,7 +240,7 @@ export default async function Home() {
             {reviews.map(({ title, name, date, text }, idx) => (
               <div
                 key={idx}
-                className="rounded-xl bg-blue-50 p-10 shadow-lg dark:bg-green-800"
+                className="rounded-xl bg-blue-50 p-10 shadow-lg dark:bg-zinc-800"
               >
                 <h3 className="mb-4 text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
                   {title}
